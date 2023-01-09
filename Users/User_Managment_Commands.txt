@@ -1,0 +1,18 @@
+#CHANGE LOGGED IN USER'S PASSWORD
+passwd
+
+#CHANGE SPECIFIC USER'S PASSWORD
+passwd [username]
+passwd usertest
+
+#SHOW ALL USERS
+#1. Show whats inside file
+cat /etc/passwd
+#2. Show only logins
+cat /etc/passwd | awk -F':' '{print $1}'
+
+#SHOW CURRENT USER INFO
+id
+
+
+

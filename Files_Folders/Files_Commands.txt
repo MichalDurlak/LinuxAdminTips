@@ -1,0 +1,6 @@
+#MOVE FILE TO ANOTHER FOLDER
+mv test.txt AnotherFolder/
+mv [File or FullPathWithFile] [FullPath]
+
+#Show path
+pwd

@@ -1,0 +1,12 @@
+#SOFTWARE TO AUDIT LINUX SERVER WITH FULL REPORT
+
+#Link to Github
+https://github.com/CISOfy/lynis
+
+#How to use:
+
+#1.Clone repo:
+git clone https://github.com/CISOfy/lynis
+
+#2.Execute
+cd lynis && ./lynis audit system
